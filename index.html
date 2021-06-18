@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodzy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+    <script src="js/slidetounlock.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer" id="upScroll">
+      <div id="overlay"></div>
+      <div class="subContainer">
+        <div class="headerContainer">
+          <div class="headerLeftContainer">
+            <span>Foodzy</span>
+          </div>
+          <div class="headerRightContainer">
+            <img
+              src="asset/Group 20134.png"
+              alt="Notification"
+              height="34"
+              width="34"
+            />
+            <img
+              src="asset/Ellipse 225.png"
+              alt="ProfileImage"
+              height="34"
+              width="34"
+            />
+          </div>
+        </div>
+        <div class="divider">
+          <hr />
+        </div>
+        <div class="middleContent">
+          <div class="midLeftContent">
+            <span
+              style="
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 16px;
+                line-height: 21px;
+                color: #ffffff;
+                opacity: 0.67;
+              "
+              >Upto</span
+            >
+            <span
+              style="
+                font-family: 'Exo', sans-serif;
+                font-style: italic;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 32px;
+                color: #ffffff;
+              "
+              >60% OFF</span
+            >
+            <span
+              style="
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+                color: #ffffff;
+                opacity: 0.67;
+              "
+              >on your first order</span
+            >
+            <button class="btnOrderNow">Order Now</button>
+          </div>
+          <div class="midRightContent">
+            <img
+              src="asset/Group 20428.png"
+              alt="burger"
+              height="110px"
+              width="127.83px"
+            />
+          </div>
+        </div>
+        <div class="mainContent">
+          <div class="subMainContent">
+            <span
+              style="
+                font-family: IBM Plex Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                display: block;
+                color: #000000;
+              "
+            >
+              Your favourites
+            </span>
+            <div class="corosol" id="container1">
+              <div class="corosolItem1">
+                <img src="asset/statusImages/macgrp.png" />
+              </div>
+              <div class="corosolItem2">
+                <img src="asset/statusImages/subgrp.png" />
+              </div>
+              <div class="corosolItem3">
+                <img src="asset/statusImages/fasgrp.png" />
+              </div>
+              <div class="corosolItem4">
+                <img src="asset/statusImages/stargrp.png" />
+              </div>
+            </div>
+            <span
+              style="
+                font-family: IBM Plex Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                display: block;
+                color: #000000;
+                margin-top: 40px;
+              "
+            >
+              Choose from the best
+            </span>
+            <div class="cuisines">
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/1.png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >South Indian</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (1).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Beverages</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (2).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Sandwiches</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (3).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Sweets</span
+                >
+              </div>
+            </div>
+            <div class="cuisines">
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (4).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >North Indian</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (5).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Continental</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (6).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Desserts</span
+                >
+              </div>
+              <div class="cuisine">
+                <img
+                  src="asset/cusineImages/Ellipse 262 (7).png"
+                  height="65px"
+                  width="65px"
+                />
+                <span
+                  style="
+                    font-family: IBM Plex Sans;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15.6px;
+                    margin-top: 4px;
+                  "
+                  >Ice Cream</span
+                >
+              </div>
+            </div>
+            <span
+              style="
+                font-family: IBM Plex Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                display: block;
+                color: #000000;
+                margin-top: 40px;
+              "
+            >
+              Popular Restaurants
+            </span>
+            <div class="popularRestaurantsMain">
+              <div
+                class="popularRestaurantItems"
+                onclick="moveElement()"
+                style="cursor: pointer"
+              >
+                <img
+                  src="asset/popularRestuarentImages/Rectangle 25156.png"
+                  alt="resimage"
+                  height="112px"
+                  width="112px"
+                />
+                <div class="popularRestaurantRightItem">
+                  <div>
+                    <span class="heading">Behrouz Biryani</span><br />
+                    <span class="subHeading">Biryani Kebab, Mughlai</span>
+                  </div>
+                  <span class="rating">4.2 &#9733;</span>
+                  <span class="discountOffer"
+                    ><img
+                      src="asset/Vector.png"
+                      height="15px"
+                      width="15px"
+                    /><span style="margin-left: 5px"> 30% off with</span>
+                    <b style="margin-left: 5px"> FOODZY30 </b></span
+                  >
+                  <span class="price">₹600 for two </span>
+                </div>
+              </div>
+
+              <div class="popularRestaurantItems">
+                <img
+                  src="asset/popularRestuarentImages/Rectangle 25157.png"
+                  alt="resimage"
+                  height="112px"
+                  width="112px"
+                />
+                <div class="popularRestaurantRightItem">
+                  <div>
+                    <span class="heading">Burger King</span><br />
+                    <span class="subHeading">Burgers, Fries & Beverages</span>
+                  </div>
+                  <span class="rating">3.5 &#9733;</span>
+                  <span class="discountOffer"
+                    ><img
+                      src="asset/Vector.png"
+                      height="15px"
+                      width="15px"
+                    /><span style="margin-left: 5px">50% off with</span>
+                    <b style="margin-left: 5px"> FREE50 </b></span
+                  >
+                  <span class="price">₹400 for two </span>
+                </div>
+              </div>
+
+              <div class="popularRestaurantItems">
+                <img
+                  src="asset/popularRestuarentImages/Rectangle 25158.png"
+                  alt="resimage"
+                  height="112px"
+                  width="112px"
+                />
+                <div class="popularRestaurantRightItem">
+                  <div>
+                    <span class="heading">Oye Kiddan!!</span><br />
+                    <span class="subHeading">Paranthas</span>
+                  </div>
+                  <span class="rating">4.2 &#9733;</span>
+                  <span class="discountOffer"
+                    ><img
+                      src="asset/Vector.png"
+                      height="15px"
+                      width="15px"
+                    /><span style="margin-left: 5px">30% off with</span>
+                    <b style="margin-left: 5px"> FOODZY30 </b></span
+                  >
+                  <span class="price">₹600 for two </span>
+                </div>
+              </div>
+
+              <div class="popularRestaurantItems">
+                <button id="viewAllBtn" class="viewAllButton">View All</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mainFooter" id="footer">
+          <div class="footer">
+            <div class="footerChildren">
+              <img src="asset/home.png" alt="footer" />
+              <span>Home</span>
+            </div>
+            <div class="footerChildren">
+              <img src="asset/search.png" alt="footer" />
+              <span>Search</span>
+            </div>
+            <div class="footerChildren">
+              <img src="asset/cart.png" alt="footer" />
+              <span>Cart</span>
+            </div>
+            <div class="footerChildren">
+              <img src="asset/person.png" alt="footer" />
+              <span>Profile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subContainer2" id="container2">
+        <div class="headerContentContainer2">
+          <img
+            src="asset/Rectangle 25159.png"
+            alt="resImage"
+            height="230"
+            width="360"
+          />
+          <span
+            onclick="moveoutElement()"
+            class="backButton"
+            style="cursor: pointer"
+            ><img
+              src="asset/backVector.png"
+              alt="back"
+              height="32px"
+              width="32px"
+          /></span>
+        </div>
+        <div class="mainContentContainer2">
+          <div class="subMainContentContainer2">
+            <div class="titleContainer">
+              <div class="titleInnerContainer">
+                <span
+                  style="
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 23px;
+
+                    color: #000000;
+                  "
+                  >Behrouz Biryani</span
+                >
+                <span
+                  style="
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 16px;
+                    /* identical to box height */
+                    opacity: 0.67;
+
+                    color: #000000;
+                    margin-top: 2px;
+                  "
+                  >Biryani Kebab, Mughlai</span
+                >
+              </div>
+              <div class="titleInnerContainer">
+                <span class="rating">4.2 &#9733;</span>
+                <span class="price" style="margin-top: 2px">₹600 for two </span>
+              </div>
+            </div>
+            <nav class="navContainer" id="container">
+              <!-- <divdraggable="true" style="cursor: grab;"> -->
+              <a
+                id="Bestsellers"
+                class="act-add"
+                href="#Bestsellers"
+                onclick="bestsellerClick()"
+                >Bestsellers</a
+              >
+              <a id="Recommended" href="#Recommended" onclick="recommendClick()"
+                >Recommended</a
+              >
+              <a id="ValueCombos" href="#ValueCombos">Value Combos</a>
+              <a id="Familypack" href="#Familypack">Family pack</a>
+            </nav>
+            <span
+              id="Bestsellers"
+              style="
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                display: block;
+                color: #000000;
+                margin-top: 20px;
+              "
+            >
+              Bestsellers
+            </span>
+
+            <div class="bestSellerMain">
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Lazeez Bhuna Murgh </span>
+                    <span class="bestSellerSubHeading"
+                      >Chicken Biryani Boneless - Serves 4-5</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹440</span>
+                  <span class="bestSellerDesc">
+                    In this most enigmatic & treasured recipe of Behrouz,
+                    immaculately spiced
+                    <button
+                      id="show"
+                      class="collapsible"
+                      style="
+                        color: black;
+                        font-weight: bolder;
+                        border: none;
+                        background-color: transparent;
+                        font-family: 'IBM Plex Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: bolder;
+                        font-size: 10px;
+                        line-height: 13px;
+                        margin: 0;
+                        padding: 0;
+                      "
+                    >
+                      Read More
+                    </button>
+                    <div class="content" id="content">
+                      fresh, succulent mutton pieces are layered with basmati &
+                      then slow-cooked on a charcoal fire.
+                      <button
+                        class="collapsible1"
+                        style="
+                          color: black;
+                          font-weight: bolder;
+                          border: none;
+                          background-color: transparent;
+                          font-family: 'IBM Plex Sans', sans-serif;
+                          font-style: normal;
+                          font-weight: bolder;
+                          font-size: 10px;
+                          line-height: 13px;
+                          margin: 0;
+                          padding: 0;
+                        "
+                      >
+                        Show Less
+                      </button>
+                    </div>
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage1">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/NonGroup 20430.png"
+                    />
+                  </div>
+                  <button
+                    class="addFoodButton1"
+                    id="addButton1"
+                    onclick="onAddClick()"
+                  >
+                    + Add
+                  </button>
+                  <!--ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+
+                  <div class="number" id="number">
+                    <div class="addButton2" id="addButton2" value="1">
+                      <span class="minus" onclick="minus()">-</span>
+                      <span id="value" style="padding: 0 12px">1</span>
+                      <span class="plus" onclick="plus()">+</span>
+                    </div>
+                    <!-- <input class="" id="addButton2" type="text" value="1"/> -->
+                  </div>
+                  <!-- <button
+                 
+                    onclick="onAddClick()"
+                  >
+                    + 1 -
+                  </button> -->
+                </div>
+              </div>
+              <script>
+                var count = 1;
+                var countEl = document.getElementById("value");
+                console.log(countEl);
+                function plus() {
+                  count++;
+                  countEl.innerHTML = count;
+                  // console.log(countEl.innerHTML)
+                }
+                function minus() {
+                  if (count == 1) {
+                    moveoutOrderElement();
+                    document.getElementById("addButton1").style.display =
+                      "block";
+                    document.getElementById("number").style.display = "none";
+                  }
+                  if (count > 1) {
+                    count--;
+                    countEl.innerHTML = count;
+                  }
+                }
+
+                function onAddClick() {
+                  moveOrderElement();
+                  document.getElementById("addButton1").style.display = "none";
+                  document.getElementById("number").style.display = "block";
+                }
+              </script>
+
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Dum Gosht</span>
+                    <span class="bestSellerSubHeading"
+                      >Mutton Biryani, Boneless - Serves 4-5</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹1033</span>
+                  <span class="bestSellerDesc">
+                    In this most enigmatic & treasured recipe of Behrouz,
+                    immaculately spiced..
+                    <a
+                      href="#"
+                      style="
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bolder;
+                      "
+                      >Read More</a
+                    >
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage2">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/NonGroup 20430.png"
+                    />
+                  </div>
+                  <button class="addFoodButton">+ Add</button>
+                </div>
+              </div>
+
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Subz-E-Biryani </span>
+                    <span class="bestSellerSubHeading"
+                      >Veg Biryani - Serves 4-5</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹910</span>
+                  <span class="bestSellerDesc">
+                    Adorned with fresh vegetables, golden-hued long-grain
+                    basmati, & the coveted..
+                    <a
+                      href="#"
+                      style="
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bolder;
+                      "
+                      >Read More</a
+                    >
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage3">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/Group 20430.png"
+                    />
+                  </div>
+                  <button class="addFoodButton">+ Add</button>
+                </div>
+              </div>
+            </div>
+
+            <span
+              id="Recommended"
+              style="
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 23px;
+                display: block;
+                color: #000000;
+                margin-top: 20px;
+              "
+            >
+              Recommended
+            </span>
+
+            <div class="bestSellerMain">
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Lazeez Bhuna Murgh </span>
+                    <span class="bestSellerSubHeading"
+                      >Chicken Biryani Boneless - Serves 4-5</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹440</span>
+                  <span class="bestSellerDesc">
+                    In this most enigmatic & treasured recipe of Behrouz,
+                    immaculately spiced..
+                    <a
+                      href="#"
+                      style="
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bolder;
+                      "
+                      >Read More</a
+                    >
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage4">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/NonGroup 20430.png"
+                    />
+                  </div>
+                  <button class="addFoodButton">+ Add</button>
+                </div>
+              </div>
+
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Paneer Subz </span>
+                    <span class="bestSellerSubHeading"
+                      >Paneer Biryani Boneless - Serves 4-5</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹440</span>
+                  <span class="bestSellerDesc">
+                    In this most enigmatic & treasured recipe of Behrouz,
+                    immaculately spiced..
+                    <a
+                      href="#"
+                      style="
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bolder;
+                      "
+                      >Read More</a
+                    >
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage5">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/Group 20430.png"
+                    />
+                  </div>
+                  <button class="addFoodButton">+ Add</button>
+                </div>
+              </div>
+
+              <div class="bestSellerItems">
+                <div class="bestSellerItem">
+                  <div class="bestSellerHeadingContent">
+                    <span class="bestSellerHeading">Zaikedaar Paneer</span>
+                    <span class="bestSellerSubHeading"
+                      >Paneer Biryani - Serves 1</span
+                    >
+                  </div>
+                  <span class="bestSellerPrice">₹440</span>
+                  <span class="bestSellerDesc">
+                    In this most enigmatic & treasured recipe of Behrouz,
+                    immaculately spiced..
+                    <a
+                      href="#"
+                      style="
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bolder;
+                      "
+                      >Read More</a
+                    >
+                  </span>
+                </div>
+                <div class="bestSellerItem">
+                  <div class="foodImage6">
+                    <img
+                      class="typeOfFood"
+                      src="asset/BehrouzImages/Group 20430.png"
+                    />
+                  </div>
+                  <button class="addFoodButton">+ Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subContainer3" id="container3">
+        <div class="orderRowMain">
+          <span>1 Item | ₹440</span>
+          <span onclick="openContainer4()" style="cursor: pointer;">Order Now</span>
+        </div>
+        <script>
+          function openContainer4() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("container2").style.filter = blur("100px");
+            // document.getElementById("container1").style.display="none";
+            document.getElementById("container3").style.display = "none";
+            document.getElementById("container4").classList.add("r-5");
+            document.getElementById("container4").classList.remove("r-6");
+            document.getElementById("overlay").style.zIndex = "70";
+            // document.getElementById("container4").style.display =
+            //           "block";
+
+            // document.getElementById("number").style.display = "none";
+          }
+        </script>
+      </div>
+
+      <div class="subContainer4" id="container4">
+        <div class="payementMain">
+          <img
+            src="asset/Group 20220.png"
+            alt="logo"
+            style="
+              border: 8px solid white;
+              border-radius: 50%;
+              top: -35px;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+            "
+            height="64px"
+            width="64px"
+          />
+          <span
+            onclick="onCancelClick()"
+            style="
+              position: absolute;
+              width: 50px;
+              height: 16px;
+              right: 24px;
+              font-family: 'IBM Plex Sans', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 16px;
+              /* identical to box height */
+
+              letter-spacing: 1px;
+              text-transform: uppercase;
+
+              /* Black ter */
+
+              color: #666666;
+              cursor: pointer;
+            "
+            >CANCEL</span
+          >
+          <div class="orderContent">
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <span class="orderHeading">Behrouz Biryani</span>
+              <span class="orderSubHeading">Acc No: 12345678</span>
+            </div>
+            <div>
+              <span class="orderPrice"> ₹ 440 </span>
+            </div>
+            <div id="page-wrap">
+              <div id="well">
+                <span class="h2"
+                  ><strong id="slider"></strong>
+                  <span
+                    id="toChange"
+                    style="
+                      margin-left: 70px;
+                      font-family: 'IBM Plex Sans', sans-serif;
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 24px;
+
+                      text-align: center;
+
+                      color: #ffffff;
+                    "
+                    >Swipe to Pay</span
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subContainer5" id="container5">
+        <!-- <div class="gifContainer"> -->
+        <!--
+          <div class="bottom-left">Bottom Left</div>
+          <div class="top-left">Top Left</div>
+          <div class="top-right">Top Right</div>
+          <div class="bottom-right">Bottom Right</div>
+          <div class="centered">Centered</div>
+       
+         -->
+        <img
+          src="asset/7434-confetti.gif"
+          alt="Snow"
+          style="
+            width: 100%;
+            height: 255px;
+            z-index: 999;
+            transform: rotate(180deg);
+            border-radius: 14px 14px 0 0;
+            margin: 9px -10px -10px -10px;
+
+          "
+        />
+        <div class="payementMain1">
+          <img
+            src="asset/Group 19342.png"
+            alt="logo"
+            style="
+              top: -40px;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+
+            "
+            height="90px"
+            width="90px"
+          />
+
+          <div class="orderContent" style="z-index: 999">
+            <div>
+              <span class="orderPrice"> ₹ 440 </span>
+            </div>
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <span class="orderHeading">Behrouz Biryani</span>
+              <span class="orderSubHeading"
+                >Transaction ID: 037374621513274</span
+              >
+            </div>
+            <div id="page-wrap">
+              <div id="well2">
+                <span class="h2">
+                  <span
+                    onclick="goToHome()"
+                    style="
+                      margin-left: 110px;
+                      font-family: 'IBM Plex Sans', sans-serif;
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 24px;
+
+                      text-align: center;
+
+                      color: #ffffff;
+                    "
+                    >Go to home</span
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function goToHome() {
+      document.getElementById("container2").classList.remove("r-0");
+      document.getElementById("container2").classList.add("r-2");
+      document.getElementById("container3").classList.remove("r-3");
+      document.getElementById("container3").classList.add("r-4");
+      document.getElementById("container4").classList.remove("r-5");
+      document.getElementById("container4").classList.add("r-6");
+      document.getElementById("container5").classList.remove("r-5");
+      document.getElementById("container5").classList.add("r-6");
+      document.getElementById("viewAllBtn").style.display = "block";
+      document.getElementById("footer").style.display = "block";
+      document.getElementById("toChange").style.opacity = "1";
+      document.getElementById("container2").classList.remove("color-overlay");
+      document.getElementById("overlay").style.zIndex = "-3";
+      minus();
+      moveoutOrderElement();
+    }
+    function onCancelClick() {
+      document.getElementById("container4").classList.remove("r-5");
+      document.getElementById("container4").classList.add("r-6");
+      document.getElementById("overlay").style.zIndex = "-3";
+    }
+    function moveOrderElement() {
+      const element = document.getElementById("container3");
+      element.classList.add("r-3");
+      element.classList.remove("r-4");
+
+      // element.classList.remove("r-1");
+      // document.getElementById("upScroll").scrollTo(0, 0);
+      // document.getElementById("footer").style.display = "none";
+      // document.getElementById("viewAllBtn").style.display = "none";
+    }
+    function moveoutOrderElement() {
+      const element = document.getElementById("container3");
+      element.classList.add("r-4");
+      element.classList.remove("r-3");
+    }
+
+    function recommendClick() {
+      document.getElementById("Recommended").classList.add("act-add");
+      document.getElementById("Bestsellers").classList.remove("act-add");
+    }
+    function bestsellerClick() {
+      document.getElementById("Bestsellers").classList.add("act-add");
+      document.getElementById("Recommended").classList.remove("act-add");
+    }
+
+    var coll = document.getElementsByClassName("collapsible");
+    var coll1ShowLess = document.getElementsByClassName("collapsible1");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          // coll.style.add = "none"
+          document.getElementById("show").style.display = "none";
+          content.style.display = "inline";
+        }
+      });
+    }
+
+    coll1ShowLess[0].addEventListener("click", function () {
+      document.getElementById("show").style.display = "inline";
+      document.getElementById("content").style.display = "none";
+    });
+
+    function moveElement() {
+      const element = document.getElementById("container2");
+      element.classList.add("r-0");
+      element.classList.remove("r-1");
+      document.getElementById("upScroll").scrollTo(0, 0);
+      document.getElementById("footer").style.display = "none";
+      document.getElementById("viewAllBtn").style.display = "none";
+    }
+    function moveoutElement() {
+      const element = document.getElementById("container2");
+      element.classList.add("r-1");
+      element.classList.remove("r-0");
+      document.getElementById("upScroll").scrollTo(0, 0);
+      document.getElementById("footer").style.display = "block";
+      document.getElementById("viewAllBtn").style.display = "block";
+    }
+  </script>
+
+  <script>
+    const container = document.querySelector("#container");
+    const container1 = document.querySelector("#container1");
+    // console.log(container)
+
+    let startY;
+    let startX;
+    let scrollLeft;
+    let scrollTop;
+    let isDown;
+
+    container.addEventListener("mousedown", (e) => mouseIsDown(e));
+    container.addEventListener("mouseup", (e) => mouseUp(e));
+    container.addEventListener("mouseleave", (e) => mouseLeave(e));
+    container.addEventListener("mousemove", (e) => mouseMove(e));
+
+    container1.addEventListener("mousedown", (e) => mouseIsDown1(e));
+    container1.addEventListener("mouseup", (e) => mouseUp1(e));
+    container1.addEventListener("mouseleave", (e) => mouseLeave1(e));
+    container1.addEventListener("mousemove", (e) => mouseMove1(e));
+
+    function mouseIsDown1(e) {
+      isDown = true;
+      startY = e.pageY - container1.offsetTop;
+      startX = e.pageX - container1.offsetLeft;
+      scrollLeft = container1.scrollLeft;
+      scrollTop = container1.scrollTop;
+    }
+    function mouseUp1(e) {
+      isDown = false;
+    }
+    function mouseLeave1(e) {
+      isDown = false;
+    }
+    function mouseMove1(e) {
+      if (isDown) {
+        e.preventDefault();
+        //Move vertcally
+        const y = e.pageY - container1.offsetTop;
+        const walkY = y - startY;
+        container1.scrollTop = scrollTop - walkY;
+
+        //Move Horizontally
+        const x = e.pageX - container1.offsetLeft;
+        const walkX = x - startX;
+        container1.scrollLeft = scrollLeft - walkX;
+      }
+    }
+
+    function mouseIsDown(e) {
+      isDown = true;
+      startY = e.pageY - container.offsetTop;
+      startX = e.pageX - container.offsetLeft;
+      scrollLeft = container.scrollLeft;
+      scrollTop = container.scrollTop;
+    }
+    function mouseUp(e) {
+      isDown = false;
+    }
+    function mouseLeave(e) {
+      isDown = false;
+    }
+    function mouseMove(e) {
+      if (isDown) {
+        e.preventDefault();
+        //Move vertcally
+        const y = e.pageY - container.offsetTop;
+        const walkY = y - startY;
+        container.scrollTop = scrollTop - walkY;
+
+        //Move Horizontally
+        const x = e.pageX - container.offsetLeft;
+        const walkX = x - startX;
+        container.scrollLeft = scrollLeft - walkX;
+      }
+    }
+  </script>
+</html>
